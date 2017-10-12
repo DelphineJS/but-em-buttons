@@ -5,3 +5,58 @@ html {
 .h-w-1 {
   background-image: url("../images/starfield.png");
 }
+
+h1,
+p {
+  color: #fff;
+  text-shadow: 1px 1px 100px rgba(255, 255, 255, .7);
+}
+
+.btn-ghost {
+  color: #b4fff4;
+  border-color: #b4fff4;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 1.25em;
+  padding-right: 2em;
+}
+
+.btn-ghost:hover {
+  background-color: rgba(180, 255, 244, .2);
+  color: #b4fff4;
+  border-color: #b4fff4;
+}
+
+.btn-ghost:hover .i-32{
+  transform: translateY(-.25em);
+}
+
+.btn-ghost:active,
+.btn-ghost:checked,
+.btn-ghost:visited,
+.btn-ghost:focus {
+  padding-bottom: 1em;
+  background-color: rgba(180, 255, 244, .2);
+  color: #b4fff4;
+  border-color: #b4fff4;
+  transform: translateY(.25em);
+}
+
+.btn-ghost::after {
+  content: "";
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  width: 100%;
+  border-bottom: 3px solid #b4fff4;
+}
+
+.i-32 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.btn-box {
+  height: 4rem;
+}
