@@ -23,8 +23,8 @@ p {
 
 .btn-ghost:hover {
   background-color: rgba(180, 255, 244, .2);
-  color: #b4fff4;
-  border-color: #b4fff4;
+  color: #90ccc3;
+  border-color: #90ccc3;
 }
 
 .btn-ghost:hover .i-32{
@@ -33,7 +33,6 @@ p {
 
 .btn-ghost:active,
 .btn-ghost:checked,
-.btn-ghost:visited,
 .btn-ghost:focus {
   padding-bottom: 1em;
   background-color: rgba(180, 255, 244, .2);
@@ -55,6 +54,7 @@ p {
   position: absolute;
   right: 10px;
   top: 10px;
+  transition: all 250ms linear;
 }
 
 .btn-box {
