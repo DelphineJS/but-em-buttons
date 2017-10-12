@@ -27,7 +27,7 @@ p {
   border-color: #90ccc3;
 }
 
-.btn-ghost:hover .i-32{
+.btn-ghost:hover .i-32 {
   transform: translateY(-.25em);
 }
 
