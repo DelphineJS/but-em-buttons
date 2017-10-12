@@ -39,7 +39,7 @@ p {
   background-color: rgba(180, 255, 244, .2);
   color: #b4fff4;
   border-color: #b4fff4;
-  transform: translateY(.25em);
+  top: .25em;
 }
 
 .btn-ghost::after {
